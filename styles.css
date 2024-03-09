@@ -1,0 +1,108 @@
+body {
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+#main-div {
+  margin: auto;
+  padding: auto;
+  width: 70%;
+}
+
+#header {
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+#title {
+  color: #202e4b;
+  font-weight: bold;
+  font-size: 45px;
+  margin: 10px 0px 10px 0px;
+}
+#sub-title {
+  color: #202e4b;
+  font-size: 25px;
+
+  margin: 10px 0px 10px 0px;
+}
+
+#border-radius {
+  margin: 50px;
+  padding: 50px;
+  border: 3px solid #9ac93c;
+  border-radius: 28px;
+  position: relative;
+}
+#spanId {
+  color: #9ac93c;
+}
+#submit-btn {
+  background-color: #9ac93c;
+  color: white;
+  padding: 7px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 0;
+  border-radius: 12px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+  bottom: -20px;
+  left: 40%;
+
+  margin: auto;
+  padding: auto;
+}
+@media screen and (max-width: 400px) {
+  #main-div {
+    margin: auto;
+    padding: auto;
+    width: 90%;
+  }
+
+  #border-radius {
+    margin: 25px;
+    padding: 25px;
+    border: 3px solid #9ac93c;
+    border-radius: 28px;
+    position: relative;
+  }
+
+  #title {
+    color: #202e4b;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 10px 0px 10px 0px;
+  }
+  #sub-title {
+    color: #202e4b;
+    font-size: 16px;
+
+    margin: 10px 0px 10px 0px;
+  }
+
+  #submit-btn {
+    background-color: #9ac93c;
+    color: white;
+    padding: 7px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 0;
+    border-radius: 12px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    bottom: -20px;
+    left: 30%;
+  }
+}
